@@ -1,0 +1,123 @@
+h1{
+    color:white       }
+
+    .Header{
+        background-color: teal;
+        display:flex;
+        justify-content: space-between;
+        border: solid
+        
+    }
+
+    .Grids{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #cccccc;
+            }
+
+    .Animals img{
+        border: solid;
+        justify-content: center;
+        
+    }
+
+    p,h2{
+        text-align: center;
+    }
+
+    .Animals p{
+        text-align: center;
+    }
+
+    a:link{
+        color:white;
+    }
+
+    a:visited{
+        color: palegreen;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff
+    }
+
+    .menu a{
+        justify-content: space-between;
+        padding-right: 5px;
+    }
+
+    .Grids img{
+        border: 2px solid #000000;
+        border-radius: 50px;
+        justify-content: space-evenly;
+    }
+
+    .Animals {
+        border-radius: 20px;
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 25px;
+        width: 310 px;
+        font-family: fantasy;
+    }
+
+    .Animals{
+        position: relative
+    }
+    .Animals p{
+        color: black; 
+        position: absolute;
+        top:35%;
+        left: 50%;
+        opacity: 0;
+
+        transform: translate(-50%, -50%);
+    }
+
+    .Camel{
+        margin-left: 130px;
+    }
+
+    .Chameleon{
+        margin-left: 130px;
+    }
+
+    .Panda{
+        margin-left: 75px;
+    }
+
+    .Bear{
+        margin-left: 95px;
+    }
+
+    .Pigeon{
+        margin-left: 75px;
+    }
+
+    .Butterfly{
+        margin-left: 85px;
+    }
+
+    .Animals:hover{
+        transform: scale(1.1);
+    }
+    
+    .Animals:hover p{
+        opacity: 1;
+    }
+
+    
+    .Animals:hover img{
+        opacity: 0.3
+    }
+    
+
+    
+    
+    
